@@ -1,7 +1,8 @@
-#home {
+/*#home {
    width: 100%;
    height: 100%;
-}
+} */
+/*
 #innerhome {
    width: 100%;
    height: 100%;
@@ -12,8 +13,9 @@
    display: grid;
    grid-template-columns: 1fr, 1fr;
    grid-template-rows: 100%;
-   /* min-height: 800px; */
-}
+   /* min-height: 800px; } removed below due to comment issue*/
+
+
 /* #home-left {
    display: flex;
    color: antiquewhite;
@@ -33,3 +35,255 @@ p{
    font-size: 3em;;
 } */
  
+
+/* Below is Andre's Code */
+header{
+   margin-left: 1.5%;
+   margin-right: 1.5%;
+   background-color:rgb(23, 24, 24);
+   background-image: url('../../../assets/Logobase.png');
+   background-size: 17% 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   text-align: center;
+   padding-top: 2.5%;
+   padding-bottom: 2.5%;
+   padding-right: 10%;
+   padding-left: 10%;
+   border-radius: 35px;
+}
+
+body {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-color: #000000;
+}
+
+
+/* Edit the border for a possible border around the curtains */
+.main{
+   margin-top: 0%;
+   margin-bottom: 2%;
+   margin-left: 3%;
+   margin-right: 3%;
+   /*border: 1px solid #ddd;
+   border-radius: 4px; */
+   border-radius: 4px;
+   background-image:url('../../../assets/Curtain.png');
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   max-width: 100%;
+   height: auto;
+   padding-top: 22%;
+   padding-bottom: 15%;
+}
+
+.nav{
+   margin-top: 2%;
+   margin-bottom: 2%;
+   margin-left: 15%;
+   margin-right: 15%;
+   background-image: url('../../../assets/Lights.png');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   text-align: center;
+   padding-top: 3%;
+   padding-bottom: 3%;
+   padding-left: 3%;
+   padding-right: 3%;
+   border-radius: 6px;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 35px;
+}
+
+.nav a.active{
+   background-image: url('../../../assets/Buttons.png');
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background-color:rgb(245, 0, 0);
+   background-position: center;
+   text-align: center;
+   padding: 1.1%;
+   text-decoration:rgba(0, 0, 0, 0.37);
+}
+
+/*use this top nav when you need the nav bar on top */
+.topnav{
+   margin-top: 0%;
+   margin-bottom: 0%;
+   margin-left: 1%;
+   margin-right: 1%;
+   background-image: url('../../../assets/Lights.png');
+   background-size: 100% 100%;
+   text-align: center;
+   padding-top: 3%;
+   padding-bottom: 3%;
+   padding-left: 3%;
+   padding-right: 3%;
+}
+
+.topnav a.active{
+   background-image: url('../../../assets/Buttons.png');
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background-color:rgb(245, 0, 0);
+   background-position: center;
+   text-align: center;
+   padding: 1.4%;
+}
+
+/* this is for the round red buttons that the nav bar will have when I add it*/
+button{
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   background-color: rgb(245, 0, 0);
+   font-size: 40px;
+   height: 100px;
+   width: 150px;
+   border-radius: 90%;
+   border: 4px solid #383636;
+   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.411), 0 17px 50px 0 rgba(0, 0, 0, 0.37);
+}
+
+.button:hover {background-color: #b81111}
+
+.profiletop1{
+   margin-top: 1%;
+   margin-bottom: 1%;
+   margin-left: 1%;
+   margin-right: 1%;
+   background-color:rgb(52, 58, 65);
+   padding-top: 2%;
+   padding-bottom: 2%;
+   padding-right: 5%;
+   padding-left: 5%;
+}
+
+.profiletop2{
+ margin-top: 0%;
+ margin-bottom: 0%;
+ margin-left: 20%;
+ margin-right: 2%;
+ height: 200px;
+ width: 400px;
+ background-color: rgb(12, 38, 185);
+ background-image:none;
+ border-radius: 20px;
+ display: inline-block;
+ padding-top: 1%;
+ padding-bottom: 1%;
+ padding-right: 2%;
+ padding-left: 20%;
+
+}
+
+.dot{
+ height: 200px;
+ width: 200px;
+ background-color: rgb(253, 253, 253);
+ background-image:none;
+ border-radius: 50%;
+ display: inline-block;
+}
+
+/*this is for the badges */
+.dot2{
+   height: 50px;
+   width: 50px;
+   background-color: rgb(219, 10, 10);
+   background-image:none;
+   border-radius: 50%;
+   display: inline-block;
+ }
+
+/* make this invisible */
+.profilebackground{
+   background-color: #1a1919;
+   padding-top: 0.5%;
+   padding-bottom: 1%;
+   display: flex;
+   flex-direction: row;
+   border: solid 1px #1a1919;
+}
+
+/*These profile codes will need tweaking to fit properly in the page */
+.profileleft{
+   margin-top: 1%;
+   margin-bottom: 2%;
+   margin-left: 1%;
+   margin-right: 2%;
+   background-color:rgb(52, 58, 65);
+   border-radius: 20px;
+   padding-top: 2%;
+   padding-bottom: 2%;
+   padding-right: 1%;
+   padding-left: 1%;
+
+}
+
+.profilemiddle1{
+   margin-top: 1%;
+   margin-bottom: 2%;
+   margin-left: 1%;
+   margin-right: 1%;
+   background-color:rgb(52, 58, 65);
+   border-radius: 20px;
+   padding-top: 2%;
+   padding-bottom: 2%;
+   padding-right: 2%;
+   padding-left: 2%;
+}
+
+.profileright{
+   margin-top: 1%;
+   margin-bottom: 2%;
+   margin-left: 2%;
+   margin-right: 1%;
+   background-color:rgb(52, 58, 65);
+   border-radius: 20px;
+   padding-top: 2%;
+   padding-bottom: 2%;
+   padding-right: 1%;
+   padding-left: 1%;
+}
+
+.Title{
+   color:rgb(231, 228, 45);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 40px;
+}
+
+.box1{
+   margin-top: 4%;
+   margin-bottom: 2%;
+   margin-left: 2%;
+   margin-right: 2%;
+   background-color:rgb(23, 24, 24);
+   padding-top: 1%;
+   padding-bottom: 1%;
+   padding-right: 1%;
+   padding-left: 1%;
+   border-radius: 4px;
+}
+
+.box2{
+   margin-top: 1%;
+   margin-bottom: 2%;
+   margin-left: 1%;
+   margin-right: 1%;
+   background-color:rgb(32, 35, 37);
+   border-radius: 4px;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   padding-right: 1%;
+   padding-left: 1%;
+}
+
+footer{
+   margin-top: 1%;
+   margin-bottom: 0%;
+   margin-left: 1%;
+   margin-right: 1%;
+   background-color: rgb(23, 24, 24);
+   text-align: center;
+   border-radius: 4px;
+}
+

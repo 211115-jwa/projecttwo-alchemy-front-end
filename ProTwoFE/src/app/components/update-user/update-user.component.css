@@ -1,0 +1,216 @@
+/* Andre's code below */
+header{
+    background-color:rgb(47, 51, 51);
+    /* background-image: url('../Images/Buttons.png'); */
+    background-size: 20% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #1a1919;
+}
+
+
+/* Edit the border for a possible border around the curtains */
+.main{
+    margin-top: 0%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    /*border: 1px solid #ddd;
+    border-radius: 4px; */
+
+    /* background-image:url('../Images/Curtain.png'); */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+    padding-top: 22%;
+    padding-bottom: 15%;
+}
+
+.nav{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    /* background-image: url('../Images/Lights.png'); */
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.nav a.active{
+    /* background-image: url('../Images/Buttons.png'); */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color:rgb(245, 0, 0);
+    background-position: center;
+    text-align: center;
+    padding: 1.1%;
+}
+
+/*use this top nav when you need the nav bar on top */
+.topnav{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 1%;
+    margin-right: 1%;
+    /* background-image: url('../Images/Lights.png'); */
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.topnav a.active{
+    /* background-image: url('../Images/Buttons.png'); */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color:rgb(245, 0, 0);
+    background-position: center;
+    text-align: center;
+    padding: 1.4%;
+}
+
+/* this is for the round red buttons that the nav bar will have when I add it*/
+button{
+    border-radius: 50%;
+}
+
+.profiletop1{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color:rgb(52, 58, 65);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.profiletop2{
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 20%;
+  margin-right: 2%;
+  height: 200px;
+  width: 400px;
+  background-color: rgb(12, 38, 185);
+  background-image:none;
+  border-radius: 20px;
+  display: inline-block;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 2%;
+  padding-left: 20%;
+
+}
+
+.dot{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(253, 253, 253);
+  background-image:none;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/*this is for the badges */
+.dot2{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(219, 10, 10);
+    background-image:none;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+/* make this invisible */
+.profilebackground{
+    background-color: #1a1919;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    border: solid 1px #1a1919;
+}
+
+/*These profile codes will need tweaking to fit properly in the page */
+.profileleft{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    margin-right: 2%;
+    background-color:rgb(52, 58, 65);
+    border-radius: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 1%;
+    padding-left: 1%;
+
+}
+
+.profilemiddle1{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color:rgb(52, 58, 65);
+    border-radius: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.profileright{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 1%;
+    background-color:rgb(52, 58, 65);
+    border-radius: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.box1{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color:rgb(52, 58, 65);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 2%;
+    padding-left: 2%;
+    
+}
+
+.box2{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color:rgb(32, 35, 37);
+}
+
+footer{
+    background-color: black;
+}

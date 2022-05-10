@@ -1,0 +1,7 @@
+Project 2 Proposal
+
+SpoilerRoom
+Movie Review Interactive Web Site. Users can interace with their favorite or most 
+hated movie, where they can review and share movies and comment on each others reviews.
+Logged in users can be rated as well to be able to gain a critic level which can give them 
+special avatars or special pages for adding their own movie page.

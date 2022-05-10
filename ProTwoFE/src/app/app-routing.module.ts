@@ -11,7 +11,6 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent},
   { path: 'login', component: LoginComponent},
   { path: 'update', component: UpdateUserComponent},
-
   { path: '', component: HomeComponent}
 ];
 

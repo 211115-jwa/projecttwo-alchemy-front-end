@@ -1,0 +1,31 @@
+
+ 
+<div class="nav">
+    <title>
+        Welcome to SpoilerRoom -  Home
+    </title>
+    <span>
+        <a routerLink="home">SpoilerScreen</a>
+      
+        <a routerLink="movie">Movies!</a>
+        <!-- <a *ngIf="loggedInUser" routerLink="home">My Reviews</a> -->
+        <a *ngIf="loggedInUser && loggedInUser.rank.rankTitle == 'Admin' " routerLink="profile">User Admin</a>
+    </span>
+    <span>
+        <button id="sL" *ngIf="!loggedInUser; else user" (click)="showLogin=!showLogin">Log In</button>
+        <ng-template #user>
+            {{ loggedInUser.firstName }}&nbsp;&nbsp;&nbsp;
+            <button id="lo" (click)="logOut()">Log Out</button>
+        </ng-template>
+    </span>
+<ng-container *ngIf="showLogin">
+    <app-login (login)="setup()"></app-login>
+</ng-container>
+
+</div>
+    <!-- <a class ="active" routerLink="home" >Home</a>
+    &nbsp;
+    <a class ="active" routerLink="movie" >Movies!</a>
+    &nbsp;
+    <a class ="active">Explore</a>
+    &nbsp; -->

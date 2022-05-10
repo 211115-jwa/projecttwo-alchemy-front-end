@@ -23,6 +23,7 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { Router, NavigationStart, NavigationEnd } from '@angular/router';
 import { Location, PopStateEvent } from "@angular/common";
+import { ReviewComponent } from './components/review/review.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { Location, PopStateEvent } from "@angular/common";
     RegisterComponent,
     UpdateUserComponent,
     NavbarComponent,
-    LoginComponent
+    LoginComponent,
+    ReviewComponent
     ],
   imports: [
     BrowserModule,
